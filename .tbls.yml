@@ -1,0 +1,2 @@
+dsn: postgres://postgres:postgres@0.0.0.0:5432/play_security_development?sslmode=disable
+docPath: schema
