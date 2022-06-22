@@ -27,48 +27,48 @@
 <text text-anchor="start" x="391" y="-603.9" font-family="Arial" font-size="14.00" fill="#000000">question </text>
 <text text-anchor="start" x="447.8008" y="-603.9" font-family="Arial" font-size="14.00" fill="#666666">[text]</text>
 <polygon fill="none" stroke="#000000" points="384,-562.5 384,-592.5 686,-592.5 686,-562.5 384,-562.5"/>
-<text text-anchor="start" x="391" y="-573.9" font-family="Arial" font-size="14.00" fill="#000000">success_message </text>
-<text text-anchor="start" x="510.0294" y="-573.9" font-family="Arial" font-size="14.00" fill="#666666">[text]</text>
+<text text-anchor="start" x="391" y="-573.9" font-family="Arial" font-size="14.00" fill="#000000">failure_message </text>
+<text text-anchor="start" x="497.5764" y="-573.9" font-family="Arial" font-size="14.00" fill="#666666">[text]</text>
 <polygon fill="none" stroke="#000000" points="384,-532.5 384,-562.5 686,-562.5 686,-532.5 384,-532.5"/>
-<text text-anchor="start" x="391" y="-543.9" font-family="Arial" font-size="14.00" fill="#000000">failure_message </text>
-<text text-anchor="start" x="497.5764" y="-543.9" font-family="Arial" font-size="14.00" fill="#666666">[text]</text>
+<text text-anchor="start" x="391" y="-543.9" font-family="Arial" font-size="14.00" fill="#000000">created_at </text>
+<text text-anchor="start" x="461.028" y="-543.9" font-family="Arial" font-size="14.00" fill="#666666">[timestamp without time zone]</text>
 <polygon fill="none" stroke="#000000" points="384,-502.5 384,-532.5 686,-532.5 686,-502.5 384,-502.5"/>
-<text text-anchor="start" x="391" y="-513.9" font-family="Arial" font-size="14.00" fill="#000000">created_at </text>
-<text text-anchor="start" x="461.028" y="-513.9" font-family="Arial" font-size="14.00" fill="#666666">[timestamp without time zone]</text>
-<polygon fill="none" stroke="#000000" points="384,-472.5 384,-502.5 686,-502.5 686,-472.5 384,-472.5"/>
-<text text-anchor="start" x="391" y="-483.9" font-family="Arial" font-size="14.00" fill="#000000">updated_at </text>
-<text text-anchor="start" x="464.9326" y="-483.9" font-family="Arial" font-size="14.00" fill="#666666">[timestamp without time zone]</text>
-<polygon fill="none" stroke="#000000" stroke-width="3" points="382.5,-471.5 382.5,-719.5 687.5,-719.5 687.5,-471.5 382.5,-471.5"/>
+<text text-anchor="start" x="391" y="-513.9" font-family="Arial" font-size="14.00" fill="#000000">updated_at </text>
+<text text-anchor="start" x="464.9326" y="-513.9" font-family="Arial" font-size="14.00" fill="#666666">[timestamp without time zone]</text>
+<polygon fill="none" stroke="#000000" stroke-width="3" points="382.5,-501.5 382.5,-719.5 687.5,-719.5 687.5,-501.5 382.5,-501.5"/>
 </g>
 <!-- public.scenarios -->
 <g id="node4" class="node">
 <title>public.scenarios</title>
-<polygon fill="#efefef" stroke="transparent" points="398,-312.5 398,-347.5 671,-347.5 671,-312.5 398,-312.5"/>
-<polygon fill="none" stroke="#000000" points="398,-312.5 398,-347.5 671,-347.5 671,-312.5 398,-312.5"/>
-<text text-anchor="start" x="421.3629" y="-325.3" font-family="Arial Bold" font-size="18.00" fill="#000000">public.scenarios</text>
-<text text-anchor="start" x="550.3833" y="-325.3" font-family="Arial" font-size="14.00" fill="#000000"> </text>
-<text text-anchor="start" x="554.2739" y="-325.3" font-family="Arial" font-size="14.00" fill="#666666">[BASE TABLE]</text>
+<polygon fill="#efefef" stroke="transparent" points="398,-342.5 398,-377.5 671,-377.5 671,-342.5 398,-342.5"/>
+<polygon fill="none" stroke="#000000" points="398,-342.5 398,-377.5 671,-377.5 671,-342.5 398,-342.5"/>
+<text text-anchor="start" x="421.3629" y="-355.3" font-family="Arial Bold" font-size="18.00" fill="#000000">public.scenarios</text>
+<text text-anchor="start" x="550.3833" y="-355.3" font-family="Arial" font-size="14.00" fill="#000000"> </text>
+<text text-anchor="start" x="554.2739" y="-355.3" font-family="Arial" font-size="14.00" fill="#666666">[BASE TABLE]</text>
+<polygon fill="none" stroke="#000000" points="398,-312.5 398,-342.5 671,-342.5 671,-312.5 398,-312.5"/>
+<text text-anchor="start" x="405" y="-323.9" font-family="Arial" font-size="14.00" fill="#000000">id </text>
+<text text-anchor="start" x="419.7798" y="-323.9" font-family="Arial" font-size="14.00" fill="#666666">[uuid]</text>
 <polygon fill="none" stroke="#000000" points="398,-282.5 398,-312.5 671,-312.5 671,-282.5 398,-282.5"/>
-<text text-anchor="start" x="405" y="-293.9" font-family="Arial" font-size="14.00" fill="#000000">id </text>
-<text text-anchor="start" x="419.7798" y="-293.9" font-family="Arial" font-size="14.00" fill="#666666">[uuid]</text>
+<text text-anchor="start" x="405" y="-293.9" font-family="Arial" font-size="14.00" fill="#000000">organization_id </text>
+<text text-anchor="start" x="503.805" y="-293.9" font-family="Arial" font-size="14.00" fill="#666666">[uuid]</text>
 <polygon fill="none" stroke="#000000" points="398,-252.5 398,-282.5 671,-282.5 671,-252.5 398,-252.5"/>
-<text text-anchor="start" x="405" y="-263.9" font-family="Arial" font-size="14.00" fill="#000000">organization_id </text>
-<text text-anchor="start" x="503.805" y="-263.9" font-family="Arial" font-size="14.00" fill="#666666">[uuid]</text>
+<text text-anchor="start" x="405" y="-263.9" font-family="Arial" font-size="14.00" fill="#000000">role_id </text>
+<text text-anchor="start" x="450.8948" y="-263.9" font-family="Arial" font-size="14.00" fill="#666666">[uuid]</text>
 <polygon fill="none" stroke="#000000" points="398,-222.5 398,-252.5 671,-252.5 671,-222.5 398,-222.5"/>
-<text text-anchor="start" x="405" y="-233.9" font-family="Arial" font-size="14.00" fill="#000000">role_id </text>
-<text text-anchor="start" x="450.8948" y="-233.9" font-family="Arial" font-size="14.00" fill="#666666">[uuid]</text>
+<text text-anchor="start" x="405" y="-233.9" font-family="Arial" font-size="14.00" fill="#000000">title </text>
+<text text-anchor="start" x="430.6676" y="-233.9" font-family="Arial" font-size="14.00" fill="#666666">[varchar(255)]</text>
 <polygon fill="none" stroke="#000000" points="398,-192.5 398,-222.5 671,-222.5 671,-192.5 398,-192.5"/>
-<text text-anchor="start" x="405" y="-203.9" font-family="Arial" font-size="14.00" fill="#000000">scenario_title </text>
-<text text-anchor="start" x="491.3478" y="-203.9" font-family="Arial" font-size="14.00" fill="#666666">[varchar(255)]</text>
+<text text-anchor="start" x="405" y="-203.9" font-family="Arial" font-size="14.00" fill="#000000">overview </text>
+<text text-anchor="start" x="464.1122" y="-203.9" font-family="Arial" font-size="14.00" fill="#666666">[text]</text>
 <polygon fill="none" stroke="#000000" points="398,-162.5 398,-192.5 671,-192.5 671,-162.5 398,-162.5"/>
-<text text-anchor="start" x="405" y="-173.9" font-family="Arial" font-size="14.00" fill="#000000">scenario_overview </text>
-<text text-anchor="start" x="524.7924" y="-173.9" font-family="Arial" font-size="14.00" fill="#666666">[text]</text>
+<text text-anchor="start" x="405" y="-173.9" font-family="Arial" font-size="14.00" fill="#000000">description </text>
+<text text-anchor="start" x="476.568" y="-173.9" font-family="Arial" font-size="14.00" fill="#666666">[text]</text>
 <polygon fill="none" stroke="#000000" points="398,-132.5 398,-162.5 671,-162.5 671,-132.5 398,-132.5"/>
-<text text-anchor="start" x="405" y="-143.9" font-family="Arial" font-size="14.00" fill="#000000">scenario_description </text>
-<text text-anchor="start" x="537.2482" y="-143.9" font-family="Arial" font-size="14.00" fill="#666666">[text]</text>
+<text text-anchor="start" x="405" y="-143.9" font-family="Arial" font-size="14.00" fill="#000000">highest_score </text>
+<text text-anchor="start" x="496.0266" y="-143.9" font-family="Arial" font-size="14.00" fill="#666666">[integer]</text>
 <polygon fill="none" stroke="#000000" points="398,-102.5 398,-132.5 671,-132.5 671,-102.5 398,-102.5"/>
-<text text-anchor="start" x="405" y="-113.9" font-family="Arial" font-size="14.00" fill="#000000">total_score </text>
-<text text-anchor="start" x="477.352" y="-113.9" font-family="Arial" font-size="14.00" fill="#666666">[integer]</text>
+<text text-anchor="start" x="405" y="-113.9" font-family="Arial" font-size="14.00" fill="#000000">result_message </text>
+<text text-anchor="start" x="507.6872" y="-113.9" font-family="Arial" font-size="14.00" fill="#666666">[text]</text>
 <polygon fill="none" stroke="#000000" points="398,-72.5 398,-102.5 671,-102.5 671,-72.5 398,-72.5"/>
 <text text-anchor="start" x="405" y="-83.9" font-family="Arial" font-size="14.00" fill="#000000">created_at </text>
 <text text-anchor="start" x="475.028" y="-83.9" font-family="Arial" font-size="14.00" fill="#666666">[timestamp without time zone]</text>
@@ -79,8 +79,8 @@
 <!-- public.scenario_quizzes&#45;&gt;public.scenarios -->
 <g id="edge4" class="edge">
 <title>public.scenario_quizzes:scenario_id&#45;&gt;public.scenarios:id</title>
-<path fill="none" stroke="#000000" d="M373.604,-636.8701C292.9637,-626.6423 324.5177,-494.4096 384,-427 469.0574,-330.6068 585.9426,-487.3932 671,-391 698.4949,-359.8408 712.5556,-297.5 671,-297.5"/>
-<polygon fill="#000000" stroke="#000000" points="374.0183,-636.8951 383.7278,-641.9918 379.0092,-637.1975 384,-637.5 384,-637.5 384,-637.5 379.0092,-637.1975 384.2722,-633.0082 374.0183,-636.8951 374.0183,-636.8951"/>
+<path fill="none" stroke="#000000" d="M373.8314,-636.7878C306.2688,-626.809 333.306,-514.4501 384,-457 469.0574,-360.6068 585.9426,-517.3932 671,-421 698.4949,-389.8408 712.5556,-327.5 671,-327.5"/>
+<polygon fill="#000000" stroke="#000000" points="374.0244,-636.8012 383.6855,-641.989 379.0122,-637.1506 384,-637.5 384,-637.5 384,-637.5 379.0122,-637.1506 384.3145,-633.011 374.0244,-636.8012 374.0244,-636.8012"/>
 <text text-anchor="start" x="6.7165" y="-647.5" font-family="Arial" font-size="10.00" fill="#000000">FOREIGN KEY (scenario_id) REFERENCES scenarios(id) ON DELETE CASCADE</text>
 </g>
 <!-- public.scenario_quiz_options -->

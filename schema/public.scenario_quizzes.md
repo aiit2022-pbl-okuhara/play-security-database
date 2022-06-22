@@ -9,8 +9,7 @@
 | id | uuid | gen_random_uuid() | false | [public.scenario_quiz_options](public.scenario_quiz_options.md) [public.user_scenario_quiz_histories](public.user_scenario_quiz_histories.md) |  |  |
 | scenario_id | uuid |  | false |  | [public.scenarios](public.scenarios.md) |  |
 | question | text |  | false |  |  |  |
-| success_message | text |  | false |  |  |  |
-| failure_message | text |  | false |  |  |  |
+| failure_message | text |  | true |  |  |  |
 | created_at | timestamp without time zone |  | false |  |  |  |
 | updated_at | timestamp without time zone |  | false |  |  |  |
 

@@ -9,10 +9,11 @@
 | id | uuid | gen_random_uuid() | false | [public.scenario_quizzes](public.scenario_quizzes.md) [public.user_scenario_histories](public.user_scenario_histories.md) [public.user_scenario_quiz_histories](public.user_scenario_quiz_histories.md) |  |  |
 | organization_id | uuid |  | false |  | [public.organizations](public.organizations.md) |  |
 | role_id | uuid |  | false |  | [public.roles](public.roles.md) |  |
-| scenario_title | varchar(255) |  | false |  |  |  |
-| scenario_overview | text |  | false |  |  |  |
-| scenario_description | text |  | false |  |  |  |
-| total_score | integer |  | false |  |  |  |
+| title | varchar(255) |  | false |  |  |  |
+| overview | text |  | false |  |  |  |
+| description | text |  | false |  |  |  |
+| highest_score | integer |  | false |  |  |  |
+| result_message | text |  | false |  |  |  |
 | created_at | timestamp without time zone |  | false |  |  |  |
 | updated_at | timestamp without time zone |  | false |  |  |  |
 

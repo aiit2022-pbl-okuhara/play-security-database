@@ -12,9 +12,9 @@
 | [public.user_authentication_logs](public.user_authentication_logs.md) | 4 |  | BASE TABLE |
 | [public.tags](public.tags.md) | 4 |  | BASE TABLE |
 | [public.roles](public.roles.md) | 5 |  | BASE TABLE |
-| [public.scenarios](public.scenarios.md) | 9 |  | BASE TABLE |
+| [public.scenarios](public.scenarios.md) | 10 |  | BASE TABLE |
 | [public.scenario_tags](public.scenario_tags.md) | 4 |  | BASE TABLE |
-| [public.scenario_quizzes](public.scenario_quizzes.md) | 7 |  | BASE TABLE |
+| [public.scenario_quizzes](public.scenario_quizzes.md) | 6 |  | BASE TABLE |
 | [public.scenario_quiz_options](public.scenario_quiz_options.md) | 8 |  | BASE TABLE |
 | [public.user_scenario_histories](public.user_scenario_histories.md) | 6 |  | BASE TABLE |
 | [public.user_scenario_quiz_histories](public.user_scenario_quiz_histories.md) | 8 |  | BASE TABLE |
