@@ -6,7 +6,7 @@
 
 | Name | Type | Default | Nullable | Children | Parents | Comment |
 | ---- | ---- | ------- | -------- | -------- | ------- | ------- |
-| id | uuid | gen_random_uuid() | false | [public.user_organization_belonging](public.user_organization_belonging.md) [public.roles](public.roles.md) [public.scenarios](public.scenarios.md) |  |  |
+| id | uuid | gen_random_uuid() | false | [public.users](public.users.md) [public.roles](public.roles.md) [public.scenarios](public.scenarios.md) |  |  |
 | company_id | uuid |  | false |  | [public.companies](public.companies.md) |  |
 | display_id | integer |  | false |  |  |  |
 | name | varchar(128) |  | false |  |  |  |

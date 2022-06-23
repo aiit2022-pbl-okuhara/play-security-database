@@ -7,8 +7,7 @@
 | [public.schema_migration](public.schema_migration.md) | 1 |  | BASE TABLE |
 | [public.companies](public.companies.md) | 4 |  | BASE TABLE |
 | [public.organizations](public.organizations.md) | 7 |  | BASE TABLE |
-| [public.users](public.users.md) | 10 |  | BASE TABLE |
-| [public.user_organization_belonging](public.user_organization_belonging.md) | 4 |  | BASE TABLE |
+| [public.users](public.users.md) | 11 |  | BASE TABLE |
 | [public.user_authentication_logs](public.user_authentication_logs.md) | 4 |  | BASE TABLE |
 | [public.tags](public.tags.md) | 4 |  | BASE TABLE |
 | [public.roles](public.roles.md) | 5 |  | BASE TABLE |

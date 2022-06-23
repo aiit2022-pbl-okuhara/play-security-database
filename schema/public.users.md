@@ -6,7 +6,8 @@
 
 | Name | Type | Default | Nullable | Children | Parents | Comment |
 | ---- | ---- | ------- | -------- | -------- | ------- | ------- |
-| id | uuid | gen_random_uuid() | false | [public.user_organization_belonging](public.user_organization_belonging.md) [public.user_authentication_logs](public.user_authentication_logs.md) [public.user_scenario_histories](public.user_scenario_histories.md) [public.user_scenario_quiz_histories](public.user_scenario_quiz_histories.md) |  |  |
+| id | uuid | gen_random_uuid() | false | [public.user_authentication_logs](public.user_authentication_logs.md) [public.user_scenario_histories](public.user_scenario_histories.md) [public.user_scenario_quiz_histories](public.user_scenario_quiz_histories.md) |  |  |
+| organization_id | uuid |  | false |  | [public.organizations](public.organizations.md) |  |
 | last_name | varchar(128) |  | false |  |  |  |
 | first_name | varchar(128) |  | false |  |  |  |
 | last_name_kana | varchar(128) |  | false |  |  |  |
@@ -21,6 +22,7 @@
 
 | Name | Type | Definition |
 | ---- | ---- | ---------- |
+| users_organization_id_fkey | FOREIGN KEY | FOREIGN KEY (organization_id) REFERENCES organizations(id) ON DELETE CASCADE |
 | users_pkey | PRIMARY KEY | PRIMARY KEY (id) |
 
 ## Indexes
