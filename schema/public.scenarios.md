@@ -6,10 +6,9 @@
 
 | Name | Type | Default | Nullable | Children | Parents | Comment |
 | ---- | ---- | ------- | -------- | -------- | ------- | ------- |
-| id | uuid | gen_random_uuid() | false | [public.scenario_quizzes](public.scenario_quizzes.md) [public.user_scenario_histories](public.user_scenario_histories.md) [public.user_scenario_quiz_histories](public.user_scenario_quiz_histories.md) |  |  |
-| organization_id | uuid |  | false |  | [public.organizations](public.organizations.md) |  |
+| id | uuid | gen_random_uuid() | false | [public.quizzes](public.quizzes.md) [public.user_scenario_histories](public.user_scenario_histories.md) [public.user_scenario_quiz_histories](public.user_scenario_quiz_histories.md) |  |  |
+| story_id | uuid |  | false |  | [public.stories](public.stories.md) |  |
 | role_id | uuid |  | false |  | [public.roles](public.roles.md) |  |
-| title | varchar(255) |  | false |  |  |  |
 | overview | text |  | false |  |  |  |
 | description | text |  | false |  |  |  |
 | highest_score | integer |  | false |  |  |  |
@@ -21,8 +20,8 @@
 
 | Name | Type | Definition |
 | ---- | ---- | ---------- |
-| scenarios_organization_id_fkey | FOREIGN KEY | FOREIGN KEY (organization_id) REFERENCES organizations(id) ON DELETE CASCADE |
 | scenarios_role_id_fkey | FOREIGN KEY | FOREIGN KEY (role_id) REFERENCES roles(id) ON DELETE CASCADE |
+| scenarios_story_id_fkey | FOREIGN KEY | FOREIGN KEY (story_id) REFERENCES stories(id) ON DELETE CASCADE |
 | scenarios_pkey | PRIMARY KEY | PRIMARY KEY (id) |
 
 ## Indexes

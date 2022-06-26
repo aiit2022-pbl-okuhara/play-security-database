@@ -1,4 +1,4 @@
-# public.scenario_quizzes
+# public.quizzes
 
 ## Description
 
@@ -6,7 +6,7 @@
 
 | Name | Type | Default | Nullable | Children | Parents | Comment |
 | ---- | ---- | ------- | -------- | -------- | ------- | ------- |
-| id | uuid | gen_random_uuid() | false | [public.scenario_quiz_options](public.scenario_quiz_options.md) [public.user_scenario_quiz_histories](public.user_scenario_quiz_histories.md) |  |  |
+| id | uuid | gen_random_uuid() | false | [public.quiz_options](public.quiz_options.md) [public.user_scenario_quiz_histories](public.user_scenario_quiz_histories.md) |  |  |
 | scenario_id | uuid |  | false |  | [public.scenarios](public.scenarios.md) |  |
 | question | text |  | false |  |  |  |
 | failure_message | text |  | true |  |  |  |
@@ -17,18 +17,18 @@
 
 | Name | Type | Definition |
 | ---- | ---- | ---------- |
-| scenario_quizzes_scenario_id_fkey | FOREIGN KEY | FOREIGN KEY (scenario_id) REFERENCES scenarios(id) ON DELETE CASCADE |
-| scenario_quizzes_pkey | PRIMARY KEY | PRIMARY KEY (id) |
+| quizzes_scenario_id_fkey | FOREIGN KEY | FOREIGN KEY (scenario_id) REFERENCES scenarios(id) ON DELETE CASCADE |
+| quizzes_pkey | PRIMARY KEY | PRIMARY KEY (id) |
 
 ## Indexes
 
 | Name | Definition |
 | ---- | ---------- |
-| scenario_quizzes_pkey | CREATE UNIQUE INDEX scenario_quizzes_pkey ON public.scenario_quizzes USING btree (id) |
+| quizzes_pkey | CREATE UNIQUE INDEX quizzes_pkey ON public.quizzes USING btree (id) |
 
 ## Relations
 
-![er](public.scenario_quizzes.svg)
+![er](public.quizzes.svg)
 
 ---
 

@@ -1,4 +1,4 @@
-# public.scenario_tags
+# public.stories_tags
 
 ## Description
 
@@ -7,6 +7,7 @@
 | Name | Type | Default | Nullable | Children | Parents | Comment |
 | ---- | ---- | ------- | -------- | -------- | ------- | ------- |
 | id | uuid | gen_random_uuid() | false |  |  |  |
+| story_id | uuid |  | false |  | [public.stories](public.stories.md) |  |
 | tag_id | uuid |  | false |  | [public.tags](public.tags.md) |  |
 | created_at | timestamp without time zone |  | false |  |  |  |
 | updated_at | timestamp without time zone |  | false |  |  |  |
@@ -15,18 +16,19 @@
 
 | Name | Type | Definition |
 | ---- | ---- | ---------- |
-| scenario_tags_tag_id_fkey | FOREIGN KEY | FOREIGN KEY (tag_id) REFERENCES tags(id) ON DELETE CASCADE |
-| scenario_tags_pkey | PRIMARY KEY | PRIMARY KEY (id) |
+| stories_tags_tag_id_fkey | FOREIGN KEY | FOREIGN KEY (tag_id) REFERENCES tags(id) ON DELETE CASCADE |
+| stories_tags_story_id_fkey | FOREIGN KEY | FOREIGN KEY (story_id) REFERENCES stories(id) ON DELETE CASCADE |
+| stories_tags_pkey | PRIMARY KEY | PRIMARY KEY (id) |
 
 ## Indexes
 
 | Name | Definition |
 | ---- | ---------- |
-| scenario_tags_pkey | CREATE UNIQUE INDEX scenario_tags_pkey ON public.scenario_tags USING btree (id) |
+| stories_tags_pkey | CREATE UNIQUE INDEX stories_tags_pkey ON public.stories_tags USING btree (id) |
 
 ## Relations
 
-![er](public.scenario_tags.svg)
+![er](public.stories_tags.svg)
 
 ---
 
