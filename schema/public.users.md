@@ -6,7 +6,7 @@
 
 | Name | Type | Default | Nullable | Children | Parents | Comment |
 | ---- | ---- | ------- | -------- | -------- | ------- | ------- |
-| id | uuid | gen_random_uuid() | false | [public.user_authentication_logs](public.user_authentication_logs.md) [public.user_scenario_histories](public.user_scenario_histories.md) [public.user_scenario_quiz_histories](public.user_scenario_quiz_histories.md) |  |  |
+| id | uuid | gen_random_uuid() | false | [public.user_authentication_logs](public.user_authentication_logs.md) [public.user_scenario_histories](public.user_scenario_histories.md) [public.user_quiz_histories](public.user_quiz_histories.md) |  |  |
 | organization_id | uuid |  | false |  | [public.organizations](public.organizations.md) |  |
 | nickname | varchar(20) |  | false |  |  |  |
 | email | varchar(255) |  | false |  |  |  |

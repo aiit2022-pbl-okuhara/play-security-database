@@ -6,7 +6,7 @@
 
 | Name | Type | Default | Nullable | Children | Parents | Comment |
 | ---- | ---- | ------- | -------- | -------- | ------- | ------- |
-| id | uuid | gen_random_uuid() | false | [public.quizzes](public.quizzes.md) [public.user_scenario_histories](public.user_scenario_histories.md) [public.user_scenario_quiz_histories](public.user_scenario_quiz_histories.md) |  |  |
+| id | uuid | gen_random_uuid() | false | [public.scenario_quizzes](public.scenario_quizzes.md) [public.user_scenario_histories](public.user_scenario_histories.md) [public.user_quiz_histories](public.user_quiz_histories.md) |  |  |
 | story_id | uuid |  | false |  | [public.stories](public.stories.md) |  |
 | role_id | uuid |  | false |  | [public.roles](public.roles.md) |  |
 | overview | text |  | false |  |  |  |

@@ -6,7 +6,7 @@
 
 | Name | Type | Default | Nullable | Children | Parents | Comment |
 | ---- | ---- | ------- | -------- | -------- | ------- | ------- |
-| id | uuid | gen_random_uuid() | false | [public.user_scenario_quiz_histories](public.user_scenario_quiz_histories.md) |  |  |
+| id | uuid | gen_random_uuid() | false | [public.user_quiz_histories](public.user_quiz_histories.md) |  |  |
 | user_id | uuid |  | false |  | [public.users](public.users.md) |  |
 | scenario_id | uuid |  | false |  | [public.scenarios](public.scenarios.md) |  |
 | total_score | integer |  | false |  |  |  |

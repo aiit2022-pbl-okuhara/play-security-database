@@ -6,8 +6,7 @@
 
 | Name | Type | Default | Nullable | Children | Parents | Comment |
 | ---- | ---- | ------- | -------- | -------- | ------- | ------- |
-| id | uuid | gen_random_uuid() | false | [public.quiz_options](public.quiz_options.md) [public.user_scenario_quiz_histories](public.user_scenario_quiz_histories.md) |  |  |
-| scenario_id | uuid |  | false |  | [public.scenarios](public.scenarios.md) |  |
+| id | uuid | gen_random_uuid() | false | [public.quiz_options](public.quiz_options.md) [public.scenario_quizzes](public.scenario_quizzes.md) |  |  |
 | question | text |  | false |  |  |  |
 | failure_message | text |  | true |  |  |  |
 | created_at | timestamp without time zone |  | false |  |  |  |
@@ -17,7 +16,6 @@
 
 | Name | Type | Definition |
 | ---- | ---- | ---------- |
-| quizzes_scenario_id_fkey | FOREIGN KEY | FOREIGN KEY (scenario_id) REFERENCES scenarios(id) ON DELETE CASCADE |
 | quizzes_pkey | PRIMARY KEY | PRIMARY KEY (id) |
 
 ## Indexes
