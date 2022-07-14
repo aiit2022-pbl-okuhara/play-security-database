@@ -6,7 +6,7 @@
 
 | Name | Type | Default | Nullable | Children | Parents | Comment |
 | ---- | ---- | ------- | -------- | -------- | ------- | ------- |
-| id | uuid | gen_random_uuid() | false | [public.stories_tags](public.stories_tags.md) |  |  |
+| id | uuid | gen_random_uuid() | false | [public.story_taggings](public.story_taggings.md) |  |  |
 | name | varchar(128) |  | false |  |  |  |
 | created_at | timestamp without time zone |  | false |  |  |  |
 | updated_at | timestamp without time zone |  | false |  |  |  |

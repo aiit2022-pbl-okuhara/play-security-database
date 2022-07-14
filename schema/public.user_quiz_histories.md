@@ -12,7 +12,7 @@
 | scenario_id | uuid |  | false |  | [public.scenarios](public.scenarios.md) |  |
 | scenario_quiz_id | uuid |  | false |  | [public.scenario_quizzes](public.scenario_quizzes.md) |  |
 | scenario_quiz_option_id | uuid |  | false |  | [public.scenario_quiz_options](public.scenario_quiz_options.md) |  |
-| score | integer |  | false |  |  |  |
+| score | integer | 0 | false |  |  |  |
 | created_at | timestamp without time zone |  | false |  |  |  |
 | updated_at | timestamp without time zone |  | false |  |  |  |
 

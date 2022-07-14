@@ -1,4 +1,4 @@
-# public.stories_tags
+# public.story_taggings
 
 ## Description
 
@@ -16,19 +16,19 @@
 
 | Name | Type | Definition |
 | ---- | ---- | ---------- |
-| stories_tags_tag_id_fkey | FOREIGN KEY | FOREIGN KEY (tag_id) REFERENCES tags(id) ON DELETE CASCADE |
-| stories_tags_story_id_fkey | FOREIGN KEY | FOREIGN KEY (story_id) REFERENCES stories(id) ON DELETE CASCADE |
-| stories_tags_pkey | PRIMARY KEY | PRIMARY KEY (id) |
+| story_taggings_tag_id_fkey | FOREIGN KEY | FOREIGN KEY (tag_id) REFERENCES tags(id) ON DELETE CASCADE |
+| story_taggings_story_id_fkey | FOREIGN KEY | FOREIGN KEY (story_id) REFERENCES stories(id) ON DELETE CASCADE |
+| story_taggings_pkey | PRIMARY KEY | PRIMARY KEY (id) |
 
 ## Indexes
 
 | Name | Definition |
 | ---- | ---------- |
-| stories_tags_pkey | CREATE UNIQUE INDEX stories_tags_pkey ON public.stories_tags USING btree (id) |
+| story_taggings_pkey | CREATE UNIQUE INDEX story_taggings_pkey ON public.story_taggings USING btree (id) |
 
 ## Relations
 
-![er](public.stories_tags.svg)
+![er](public.story_taggings.svg)
 
 ---
 

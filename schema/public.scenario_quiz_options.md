@@ -10,7 +10,7 @@
 | scenario_quiz_id | uuid |  | false |  | [public.scenario_quizzes](public.scenario_quizzes.md) |  |
 | quiz_option_id | uuid |  | false |  | [public.quiz_options](public.quiz_options.md) |  |
 | answer | varchar(255) |  | true |  |  |  |
-| score | integer |  | false |  |  |  |
+| score | integer | 0 | false |  |  |  |
 | next_scenario_quiz_id | uuid |  | true |  | [public.scenario_quizzes](public.scenario_quizzes.md) |  |
 | status | integer |  | false |  |  |  |
 | created_at | timestamp without time zone |  | false |  |  |  |

@@ -108,36 +108,39 @@
 <!-- public.user_scenario_histories -->
 <g id="node3" class="node">
 <title>public.user_scenario_histories</title>
-<polygon fill="#efefef" stroke="transparent" points="510.5,-1007.5 510.5,-1042.5 863.5,-1042.5 863.5,-1007.5 510.5,-1007.5"/>
-<polygon fill="none" stroke="#000000" points="510.5,-1007.5 510.5,-1042.5 863.5,-1042.5 863.5,-1007.5 510.5,-1007.5"/>
-<text text-anchor="start" x="517.3537" y="-1020.3" font-family="Arial Bold" font-size="18.00" fill="#000000">public.user_scenario_histories</text>
-<text text-anchor="start" x="759.3925" y="-1020.3" font-family="Arial" font-size="14.00" fill="#000000"> </text>
-<text text-anchor="start" x="763.2831" y="-1020.3" font-family="Arial" font-size="14.00" fill="#666666">[BASE TABLE]</text>
-<polygon fill="none" stroke="#000000" points="510.5,-977.5 510.5,-1007.5 863.5,-1007.5 863.5,-977.5 510.5,-977.5"/>
-<text text-anchor="start" x="517.5" y="-988.9" font-family="Arial" font-size="14.00" fill="#000000">id </text>
-<text text-anchor="start" x="532.2798" y="-988.9" font-family="Arial" font-size="14.00" fill="#666666">[uuid]</text>
-<polygon fill="none" stroke="#000000" points="510.5,-947.5 510.5,-977.5 863.5,-977.5 863.5,-947.5 510.5,-947.5"/>
-<text text-anchor="start" x="517.5" y="-958.9" font-family="Arial" font-size="14.00" fill="#000000">user_id </text>
-<text text-anchor="start" x="567.2882" y="-958.9" font-family="Arial" font-size="14.00" fill="#666666">[uuid]</text>
-<polygon fill="none" stroke="#000000" points="510.5,-917.5 510.5,-947.5 863.5,-947.5 863.5,-917.5 510.5,-917.5"/>
-<text text-anchor="start" x="517.5" y="-928.9" font-family="Arial" font-size="14.00" fill="#000000">scenario_id </text>
-<text text-anchor="start" x="592.96" y="-928.9" font-family="Arial" font-size="14.00" fill="#666666">[uuid]</text>
-<polygon fill="none" stroke="#000000" points="510.5,-887.5 510.5,-917.5 863.5,-917.5 863.5,-887.5 510.5,-887.5"/>
-<text text-anchor="start" x="517.5" y="-898.9" font-family="Arial" font-size="14.00" fill="#000000">total_score </text>
-<text text-anchor="start" x="589.852" y="-898.9" font-family="Arial" font-size="14.00" fill="#666666">[integer]</text>
-<polygon fill="none" stroke="#000000" points="510.5,-857.5 510.5,-887.5 863.5,-887.5 863.5,-857.5 510.5,-857.5"/>
-<text text-anchor="start" x="517.5" y="-868.9" font-family="Arial" font-size="14.00" fill="#000000">created_at </text>
-<text text-anchor="start" x="587.528" y="-868.9" font-family="Arial" font-size="14.00" fill="#666666">[timestamp without time zone]</text>
-<polygon fill="none" stroke="#000000" points="510.5,-827.5 510.5,-857.5 863.5,-857.5 863.5,-827.5 510.5,-827.5"/>
-<text text-anchor="start" x="517.5" y="-838.9" font-family="Arial" font-size="14.00" fill="#000000">updated_at </text>
-<text text-anchor="start" x="591.4326" y="-838.9" font-family="Arial" font-size="14.00" fill="#666666">[timestamp without time zone]</text>
+<polygon fill="#efefef" stroke="transparent" points="510.5,-1022.5 510.5,-1057.5 863.5,-1057.5 863.5,-1022.5 510.5,-1022.5"/>
+<polygon fill="none" stroke="#000000" points="510.5,-1022.5 510.5,-1057.5 863.5,-1057.5 863.5,-1022.5 510.5,-1022.5"/>
+<text text-anchor="start" x="517.3537" y="-1035.3" font-family="Arial Bold" font-size="18.00" fill="#000000">public.user_scenario_histories</text>
+<text text-anchor="start" x="759.3925" y="-1035.3" font-family="Arial" font-size="14.00" fill="#000000"> </text>
+<text text-anchor="start" x="763.2831" y="-1035.3" font-family="Arial" font-size="14.00" fill="#666666">[BASE TABLE]</text>
+<polygon fill="none" stroke="#000000" points="510.5,-992.5 510.5,-1022.5 863.5,-1022.5 863.5,-992.5 510.5,-992.5"/>
+<text text-anchor="start" x="517.5" y="-1003.9" font-family="Arial" font-size="14.00" fill="#000000">id </text>
+<text text-anchor="start" x="532.2798" y="-1003.9" font-family="Arial" font-size="14.00" fill="#666666">[uuid]</text>
+<polygon fill="none" stroke="#000000" points="510.5,-962.5 510.5,-992.5 863.5,-992.5 863.5,-962.5 510.5,-962.5"/>
+<text text-anchor="start" x="517.5" y="-973.9" font-family="Arial" font-size="14.00" fill="#000000">user_id </text>
+<text text-anchor="start" x="567.2882" y="-973.9" font-family="Arial" font-size="14.00" fill="#666666">[uuid]</text>
+<polygon fill="none" stroke="#000000" points="510.5,-932.5 510.5,-962.5 863.5,-962.5 863.5,-932.5 510.5,-932.5"/>
+<text text-anchor="start" x="517.5" y="-943.9" font-family="Arial" font-size="14.00" fill="#000000">scenario_id </text>
+<text text-anchor="start" x="592.96" y="-943.9" font-family="Arial" font-size="14.00" fill="#666666">[uuid]</text>
+<polygon fill="none" stroke="#000000" points="510.5,-902.5 510.5,-932.5 863.5,-932.5 863.5,-902.5 510.5,-902.5"/>
+<text text-anchor="start" x="517.5" y="-913.9" font-family="Arial" font-size="14.00" fill="#000000">total_score </text>
+<text text-anchor="start" x="589.852" y="-913.9" font-family="Arial" font-size="14.00" fill="#666666">[integer]</text>
+<polygon fill="none" stroke="#000000" points="510.5,-872.5 510.5,-902.5 863.5,-902.5 863.5,-872.5 510.5,-872.5"/>
+<text text-anchor="start" x="517.5" y="-883.9" font-family="Arial" font-size="14.00" fill="#000000">played_at </text>
+<text text-anchor="start" x="582.0834" y="-883.9" font-family="Arial" font-size="14.00" fill="#666666">[timestamp without time zone]</text>
+<polygon fill="none" stroke="#000000" points="510.5,-842.5 510.5,-872.5 863.5,-872.5 863.5,-842.5 510.5,-842.5"/>
+<text text-anchor="start" x="517.5" y="-853.9" font-family="Arial" font-size="14.00" fill="#000000">created_at </text>
+<text text-anchor="start" x="587.528" y="-853.9" font-family="Arial" font-size="14.00" fill="#666666">[timestamp without time zone]</text>
+<polygon fill="none" stroke="#000000" points="510.5,-812.5 510.5,-842.5 863.5,-842.5 863.5,-812.5 510.5,-812.5"/>
+<text text-anchor="start" x="517.5" y="-823.9" font-family="Arial" font-size="14.00" fill="#000000">updated_at </text>
+<text text-anchor="start" x="591.4326" y="-823.9" font-family="Arial" font-size="14.00" fill="#666666">[timestamp without time zone]</text>
 </g>
 <!-- public.user_scenario_histories&#45;&gt;public.users -->
 <g id="edge2" class="edge">
 <title>public.user_scenario_histories:user_id&#45;&gt;public.users:id</title>
-<path fill="none" stroke="#000000" d="M500.5167,-960.4152C434.7851,-931.3218 474.6782,-607.5 550.5,-607.5"/>
-<polygon fill="#000000" stroke="#000000" points="500.7112,-960.4557 509.5801,-966.905 505.6056,-961.4779 510.5,-962.5 510.5,-962.5 510.5,-962.5 505.6056,-961.4779 511.4199,-958.095 500.7112,-960.4557 500.7112,-960.4557"/>
-<text text-anchor="start" x="517.5535" y="-972.5" font-family="Arial" font-size="10.00" fill="#000000">FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE</text>
+<path fill="none" stroke="#000000" d="M500.5126,-975.5093C431.315,-946.3863 471.3523,-607.5 550.5,-607.5"/>
+<polygon fill="#000000" stroke="#000000" points="500.6929,-975.5452 509.6203,-981.9132 505.5965,-976.5226 510.5,-977.5 510.5,-977.5 510.5,-977.5 505.5965,-976.5226 511.3797,-973.0868 500.6929,-975.5452 500.6929,-975.5452"/>
+<text text-anchor="start" x="517.5535" y="-987.5" font-family="Arial" font-size="10.00" fill="#000000">FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE</text>
 </g>
 <!-- public.user_quiz_histories -->
 <g id="node4" class="node">

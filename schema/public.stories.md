@@ -6,7 +6,7 @@
 
 | Name | Type | Default | Nullable | Children | Parents | Comment |
 | ---- | ---- | ------- | -------- | -------- | ------- | ------- |
-| id | uuid | gen_random_uuid() | false | [public.stories_tags](public.stories_tags.md) [public.scenarios](public.scenarios.md) |  |  |
+| id | uuid | gen_random_uuid() | false | [public.story_taggings](public.story_taggings.md) [public.scenarios](public.scenarios.md) |  |  |
 | organization_id | uuid |  | false |  | [public.organizations](public.organizations.md) |  |
 | title | varchar(255) |  | false |  |  |  |
 | created_at | timestamp without time zone |  | false |  |  |  |

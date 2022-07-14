@@ -11,7 +11,7 @@
 | role_id | uuid |  | false |  | [public.roles](public.roles.md) |  |
 | overview | text |  | false |  |  |  |
 | description | text |  | false |  |  |  |
-| highest_score | integer |  | false |  |  |  |
+| highest_score | integer | 0 | false |  |  |  |
 | result_message | text |  | false |  |  |  |
 | created_at | timestamp without time zone |  | false |  |  |  |
 | updated_at | timestamp without time zone |  | false |  |  |  |
